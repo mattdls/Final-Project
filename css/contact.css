@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* This si the start of my navigation styles */
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: dodgerblue;
+}
+/* This is the beginning of footer styles */
+
+/* This is the beginning of the body */
+body{
+  background: black;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;;
+}
+.container{
+  width: 80%;
+  margin: 50px auto;
+}
+.container h1{
+  color: white;
+}
+.container p{
+  color: white;
+}
+.container h3{
+  color: white;
+}
+.container p{
+  color: white;
+}
+.contact-box{
+  color: dodgerblue;
+  display: flex;
+}
+.contact-left{
+  flex-basis: 60%;
+  padding: 40px 60px;
+  background: dodgerblue;
+}
+.contact-right{
+  flex-basis: 40%;
+  padding: 40px;
+  background: red;
+  color: white;
+}
+h1{
+  margin-bottom: 10px;
+}
+.container p{
+  margin-bottom: 40px;
+}
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: white;
+}
+.input-row .input-group{
+  flex-basis: 45%;
+}
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label{
+  margin-bottom: 6px;
+  display: block;
+  color: #1c00b5;
+}
+button{
+  background: #1c00b5;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contact-left h3{
+  color: #1c00b5;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-right h3{
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+tr td:first-child{
+  padding-right: 20px;
+}
+tr td{
+  padding-top: 20px;
+}
+/* This is the beginning of the footer styles */
+footer{
+    background-color: #000;
+    height:200px;
+    width: 100%;
+    text-align:center;
+    position: relative;
+    bottom: 0%;
+  }
+  .column{
+    height: 200px;
+    width: 33.33%;
+    padding: 3%;
+    float: left;
+    box-sizing: border-box;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+  .column li a:hover{
+    color: dodgerblue;
+  }
+  .footer-link{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 28px;
+  }
+  .footer-cr{
+    color: #fff;
+    font-size: 18px;
+  }
+  .footer-contact{
+    color: #fff;
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 28px;
+  }
+  /* This is the end of the footer styles */

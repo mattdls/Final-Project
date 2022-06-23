@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* This is the start of my navigation styles */
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: dodgerblue;
+}
+/* This is the end of the navigation css */
+
+body{
+    font-family: 'Inter', sans-serif;;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/IMG_0492.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.column{
+    flex-basis: 50%;
+}
+.column h1{
+    color: white;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+.column p{
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+}
+.card{
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+    background-image: url(/img/IMG_0451.JPG);
+}
+.card2{
+    background-image: url(/img/IMG_0447.JPG);
+}
+.card h5{
+    color: white;
+}
+/* This is the beginning of footer styles */
+footer{
+    background-color: #000;
+    height:200px;
+    width: 100%;
+    text-align:center;
+    position: relative;
+    bottom: 0%;
+  }
+  .column{
+    height: 200px;
+    width: 33.33%;
+    padding: 3%;
+    float: left;
+    box-sizing: border-box;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+  .column li a:hover{
+    color: dodgerblue;
+  }
+  .footer-link{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 28px;
+  }
+  .footer-cr{
+    color: #fff;
+    font-size: 18px;
+  }
+  .footer-contact{
+    color: #fff;
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 28px;
+  }
+  /* This is the end of the footer styles */
