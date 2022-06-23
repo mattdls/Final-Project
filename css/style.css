@@ -33,7 +33,7 @@ body{
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url(/img/IMG_0492.JPG);
+    background-image: url(../img/IMG_0492.JPG);
     background-position: center;
     background-size: cover;
 }
@@ -68,10 +68,10 @@ body{
     background-size: cover;
 }
 .card1{
-    background-image: url(/img/IMG_0451.JPG);
+    background-image: url(../img/IMG_0451.JPG);
 }
 .card2{
-    background-image: url(/img/IMG_0447.JPG);
+    background-image: url(../img/IMG_0447.JPG);
 }
 .card h5{
     color: white;
